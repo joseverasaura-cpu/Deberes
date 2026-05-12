@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/**/
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(54, 54, 54);
+    gap: 20%;
+    height: 50px;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: blue;
+
+}
+
+/* */
+section.img {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: stretch;
+    flex-direction: row;
+    margin: 20px;
+    gap: 20px;
+}
+
+section.img div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+section.img div img {
+    flex: 1;
+    width: 100%;
+    height: auto;
+    border-radius: 3%;
+}
+
+/* */
+section.pres {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.pres img {
+    max-width: 70%;
+    height: auto;
+}
+
+section.pres p {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/**/
+section.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.form h2 {
+    color: red;
+}
+
+section.form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+section.form form label {
+    font-size: medium;
+    font-weight: bold;
+}
+
+section.form form input {
+    width: 60%;
+    margin: 20px;
+}
+
+section.form form button {
+    color: white;
+    background-color: black;
+    width: 60%;
+}
+
+section.form form button:hover {
+    color: aqua;
+    background-color: chocolate;
+}
+
+/**/
+footer {
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
